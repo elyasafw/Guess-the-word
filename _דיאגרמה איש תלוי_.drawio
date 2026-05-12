@@ -1,0 +1,155 @@
+<mxfile host="65bd71144e">
+    <diagram name="‫עמוד-1‬" id="3VKfc2uNJDE6HDBbfpso">
+        <mxGraphModel dx="980" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="b370FkzagEISazUklR1a-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-2" target="b370FkzagEISazUklR1a-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-2" value="תחילת משחק" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="558" y="60" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-4" target="b370FkzagEISazUklR1a-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-4" value="בחירת מילה אקראית מתוך מאגר והגדרת מספר ניסיונות" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="544" y="140" width="146" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-9" target="b370FkzagEISazUklR1a-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-9" value="הצגת מצב המילה,&lt;div&gt;ומספר ניסיונות שנותרו ואותיות שנוחשו&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="506" y="230" width="224" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-15" target="b370FkzagEISazUklR1a-17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-15" value="קבלת אות מהשחקן (קלט)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="525" y="320" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-17" target="b370FkzagEISazUklR1a-21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-17" target="b370FkzagEISazUklR1a-27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-17" value=":בדיקה&lt;div&gt;?האם האות קיימת במילה&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="530.75" y="410" width="174.5" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-19" target="b370FkzagEISazUklR1a-29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-19" value="חשיפת האות בכל המקומות המתאימים במילה" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="746.5" y="500" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-21" target="b370FkzagEISazUklR1a-19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="822" y="460"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;כן&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="746.5" y="445" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-25" target="b370FkzagEISazUklR1a-31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-25" value="הפחתת מספר הניסיונות של השחק" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="344" y="500" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-27" target="b370FkzagEISazUklR1a-25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="419" y="460"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;לא&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="464" y="445" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-29" target="b370FkzagEISazUklR1a-48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-29" target="b370FkzagEISazUklR1a-51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-29" value=":בדיקה&lt;div&gt;?האם כל האותיות נחשפו&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="728.37" y="585" width="186.25" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-39" target="b370FkzagEISazUklR1a-35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-31" target="b370FkzagEISazUklR1a-37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-31" value=":בדיקה&lt;div&gt;?האם נגמרו הנסיונות&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="325.87" y="585" width="186.25" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="b370FkzagEISazUklR1a-33" target="b370FkzagEISazUklR1a-45" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="821" y="890"/>
+                            <mxPoint x="630" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-33" value="הצגת הודעת ניצחון" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="740.24" y="780" width="162.51" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="b370FkzagEISazUklR1a-35" target="b370FkzagEISazUklR1a-45" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="419" y="890"/>
+                            <mxPoint x="630" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-35" value="הצגת הודעת הפסד&lt;div&gt;והמילה המלאה&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="340.49" y="780" width="157.01" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="b370FkzagEISazUklR1a-37" target="b370FkzagEISazUklR1a-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="265" y="260"/>
+                        </Array>
+                        <mxPoint x="265" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-37" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;לא&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="620" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-31" target="b370FkzagEISazUklR1a-39" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="512" y="635" as="sourcePoint"/>
+                        <mxPoint x="574" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-39" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;כן&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="403.99" y="725" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-45" value="סיום המשחק" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="920" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b370FkzagEISazUklR1a-48" target="b370FkzagEISazUklR1a-33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;כן&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="806.5" y="720" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="b370FkzagEISazUklR1a-51" target="b370FkzagEISazUklR1a-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="980" y="260"/>
+                        </Array>
+                        <mxPoint x="965" y="525" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="b370FkzagEISazUklR1a-51" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;לא&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="620" width="30" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
