@@ -1,7 +1,12 @@
-from random import choice
+CATEGORY_MAP = {
+        "1": "animals",
+        "2": "countries",
+        "3": "food",
+        "4": "sports",
+        "5": "technology"
+    }
 
-
-words = {
+WORDS_DATA= {
     "animals": [
         "elephant", "dolphin", "penguin", "leopard", "gorilla",
         "crocodile", "flamingo", "hedgehog", "kangaroo", "platypus",
@@ -33,15 +38,3 @@ words = {
         "processor", "quantum", "router", "software", "terminal"
     ]
 }
-
-
-def rand_word(category):
-    if category == "":
-        category = choice(list(words.keys()))
-    secret_word = choice(words[category])
-    return category, secret_word
-
-
-def split_word(secret_word):
-    display_word = ["_" for _ in range(len(secret_word))]
-    return display_word
