@@ -1,15 +1,4 @@
-from random import choice
-from words import words
-
-
-def rand_word(category):
-    secret_word = choice(words[category])
-    return secret_word
-
-
-def split_word(secret_word):
-    display_word = ["_" for _ in range(len(secret_word))]
-    return display_word
+from words import rand_word, split_word
 
 
 def user_guesses():
@@ -25,17 +14,23 @@ def user_guesses():
 
 
 def menu():
-    print("< Welcome to the Hangman game >\nGood luck!\n")
+    print("<  Welcome to the Hangman game, Good luck!  >\n")
     print("1. Animals\n" \
-    "2. Countries\n" \
-    "3. Food\n" \
-    "4. Sports\n" \
-    "5. Technology\n")
+            "2. Countries\n" \
+            "3. Food\n" \
+            "4. Sports\n" \
+            "5. Technology\n"\
+            "6. Exit\n")
 
     valid_choice = False
     while not valid_choice:
-        category = input("Please select category for play:  ").lower()
-        if category not in ["animals", "countries", "food", "sports", "technology"]:
+        category = input("- Please type the name of the category you want to play.\n" \
+                                    "- Press Enter for a random game.\n" \
+                                    "- Type exit to close the game.\n"\
+                                    "\nYour choice:  ").lower()
+        if category == "exit":
+            exit("Goodbye, see you later :)")
+        elif category not in ["animals", "countries", "food", "sports", "technology", ""]:
             print("Invalid choice... select only from menu!")
         else:
             valid_choice = True
@@ -43,11 +38,12 @@ def menu():
 
 def game():
     category_play = menu()
-    word  = rand_word(category_play)
+    category, word  = rand_word(category_play)
     display = split_word(word)
     choices = len(word) + 5
     letters_used = []
 
+    print(f"The selected category is: {category}\n")
     print(f"You have - {choices} - attempts to win\n")
 
     while choices > 0 and "".join(display) != word:
@@ -77,3 +73,5 @@ def game():
         print(f"\nWell done, you won! The secret word is: '{word}'")
     elif choices == 0:
         print(f"\nYou're out of attempts. The secret word was: '{word}'")
+
+game()
