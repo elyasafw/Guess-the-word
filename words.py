@@ -1,3 +1,6 @@
+from random import choice
+
+
 words = {
     "animals": [
         "elephant", "dolphin", "penguin", "leopard", "gorilla",
@@ -30,3 +33,15 @@ words = {
         "processor", "quantum", "router", "software", "terminal"
     ]
 }
+
+
+def rand_word(category):
+    if category == "":
+        category = choice(list(words.keys()))
+    secret_word = choice(words[category])
+    return category, secret_word
+
+
+def split_word(secret_word):
+    display_word = ["_" for _ in range(len(secret_word))]
+    return display_word
